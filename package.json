@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/FROSTYLAN/01-009-randomPassword/issues"
   },
-  "homepage": "https://github.com/FROSTYLAN/01-009-randomPassword#readme"
+  "homepage": "https://github.com/FROSTYLAN/01-009-randomPassword#readme",
+  "bin": {
+    "gen-password": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
